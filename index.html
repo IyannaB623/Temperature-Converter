@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Temperature Converter</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!--fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<header>
+		<h1>Temperature Converter</h1>
+	</header>
+	<body>
+		
+		<section class="converter">
+
+			
+			<form>
+				<label for="Temperature">Temperature</label>
+				<input id="numericValue" type="text" placeholder="numeric value">
+
+				<section class="dropdown">
+
+					<select id = "originalTemp" name="firstTemp">
+						<option>Celsius</option>
+						<option>Fahrenheit</option>
+						<option>Kelvin</option>
+					</select>
+
+					<select id = "finalTemp" name="secondTemp">
+						<option>Fahrenheit</option>
+						<option>Celsius</option>
+						<option>Kelvin</option>
+					</select>
+
+				</section>
+			</form>
+
+			<input id="calculate" type="submit" value="Calculate">
+		
+			<section class="result">
+
+				<h1 id="resultTitle"></h1>
+				<h2 id="displayhere"></h2>
+			
+			</section>
+
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<footer>
+			<h3><a href="https://iyannadevelops.netlify.app/">Made by Iyanna Develops</a></h3>
+		</footer>
+	</body>
+</html>
