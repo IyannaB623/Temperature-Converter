@@ -6,3 +6,5 @@ This project is self expanatory in its title. It was built using HTML, CSS, and 
 :art: Style is based on a blue pallete. With old video game vibes given the font. 
 
 :cherry_blossom: Happy Converting!
+
+![tempconvertergif](https://user-images.githubusercontent.com/87724081/202009460-4f15b717-5f3b-4ec0-84ad-7f0392faf8ba.gif)
